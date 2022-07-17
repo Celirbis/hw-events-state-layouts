@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 90vw;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.IconSwitch {
+  margin: 20px;
+  text-align: right;
+  color: grey;
+}
+
+/*.ListView,
+.CardsView {
+  margin-top: 10px;
+}*/
+
+.CardsView {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Price-sector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ShopCard {
+  width: calc(33% - 80px);
+  height: 290px;
+  box-shadow: 0 5px 5px grey;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-list-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 0 15px;
+}
+
+.product-list-img {
+  height: 60px;
+}
+
+.product-name {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.price {
+  color: red;
+}
+
+.add-button {
+  color: red;
+  height: 35px;
+  text-transform: uppercase;
+  border: red 1px solid;
+  border-radius: 25px;
+  padding: 0 15px;
+  font-weight: bold;
+}
